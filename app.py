@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-st.set_page_config(page_title="Multi Disease Prediction")
+st.set_page_config(page_title="Multi_Disease_Prediction")
 
 # loading the saved models
 
