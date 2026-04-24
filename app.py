@@ -1,16 +1,14 @@
-import pickle
+import joblib
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-st.set_page_config(page_title="Multi_Disease_Prediction")
-
 # loading the saved models
 
-diabetes_model = pickle.load(open('diabetes.sav', 'rb'))
+diabetes_model = joblib.load(open('diabetes.pkl', 'rb'))
 
-heart_model = pickle.load(open('heart.sav', 'rb'))
+heart_model = joblib.load(open('heart.pkl', 'rb'))
 
-parkinsons_model = pickle.load(open('parkinsons.sav', 'rb'))
+parkinsons_model = joblib.load(open('park.pkl', 'rb'))
 
 
 
