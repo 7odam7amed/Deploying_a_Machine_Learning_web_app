@@ -1,6 +1,6 @@
 numpy
-pickle-mixin
+scikit-learn
 streamlit
 streamlit-option-menu
-scikit-learn
 protobuf
+pickle-mixin
