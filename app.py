@@ -2,6 +2,8 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
+st.set_page_config(page_title="Multi Disease Prediction")
+
 # loading the saved models
 
 diabetes_model = pickle.load(open('diabetes.sav', 'rb'))
